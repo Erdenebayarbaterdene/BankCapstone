@@ -26,7 +26,7 @@ function Deposit(){
       console.log(data);
     })();
 
-    console.log("Your current balance: $" + user.balance);
+    console.log("You have a: $" + user.balance);
     setShow(false);
     return user.balance;
   }
