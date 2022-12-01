@@ -37,7 +37,7 @@ function Withdraw(){
       console.log(data);
     })();
 
-    console.log("Your current balance: $" + user.balance);
+    console.log("You have a: $" + user.balance);
     setShow(false);
     return user.balance;
   }
@@ -60,7 +60,7 @@ function Withdraw(){
         </>
       ):(
         <>
-        <h5>Complete! Your current balance: ${user.balance}</h5>
+        <h5>Congratulations! You have a e: ${user.balance}</h5>
         <button type="submit" className="btn btn-light" onClick={clearForm}>Withdraw more money</button>
         </>
       )}
