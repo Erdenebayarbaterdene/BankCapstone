@@ -49,7 +49,7 @@ function Deposit(){
         </>
       ):(
         <>
-        <h5>Success! Remaining balance: ${user.balance}</h5>
+        <h5>Congratulations! You have a: ${user.balance}</h5>
         <button type="submit" className="btn btn-light" onClick={clearForm}>Deposit more money</button>
         </>
       )}
